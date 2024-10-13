@@ -1,0 +1,58 @@
+
+/* Reset default styles */
+* {text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    background-color: #9f663e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ 
+/* Input field styles */
+input[type="text"] {
+    width: 79%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #9f663e;
+    border-radius: 5px;
+}
+
+/* Checkbox styles */
+checkbox-group {
+    display: flex;
+    align-items: center;
+}
+ 
+/* Dropdown styles */
+select {
+    margin-top: 28px;
+    width: 79%;
+    padding: 15px;
+    border: 1px solid #9f663e;
+    border-radius: 5px;
+}
+form {
+
+    margin-top: 30px;
+}
+/* Button styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    margin-top: 28px;
+    background-color: #9f663e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
